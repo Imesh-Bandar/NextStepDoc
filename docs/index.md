@@ -14,7 +14,7 @@ hero:
       link: /api/overview
     - theme: alt
       text: View on GitHub
-      link: https://github.com/nextstep
+      link: https://github.com/Imesh-Bandar/NextStepDoc
 
 features:
   - icon: 💼

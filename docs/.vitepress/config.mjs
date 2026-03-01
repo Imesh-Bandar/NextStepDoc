@@ -3,9 +3,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'NextStep',
   description: 'Job Portal Management System — Documentation',
+  base: '/',
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ['meta', { name: 'theme-color', content: '#2563EB' }],
+    ['meta', { property: 'og:url', content: 'https://nextstep-docv3.vercel.app/' }],
   ],
   themeConfig: {
     logo: '/logo.svg',
@@ -124,11 +126,11 @@ export default defineConfig({
       provider: 'local'
     },
     footer: {
-      message: 'NextStep Job Portal Management System',
+      message: 'NextStep Job Portal Management System | <a href="https://nextstep-docv3.vercel.app/" target="_blank">Production Site</a>',
       copyright: '© 2026 NextStep Platform. All rights reserved.'
     },
     editLink: {
-      pattern: 'https://github.com/nextstep/docs/edit/main/docs/:path',
+      pattern: 'https://github.com/Imesh-Bandar/NextStepDoc/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
     outline: {
