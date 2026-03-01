@@ -65,4 +65,4 @@ NextStep follows a modern full-stack architecture with Next.js as both frontend 
 - **Database partitioning** and read replicas with Neon PostgreSQL
 - Designed to accommodate **10,000+ registered users** without architectural changes
 - Cloud-native deployment on **Vercel**
-- Production deployment: [https://nextstepdocv1.vercel.app/](https://nextstepdocv1.vercel.app/)
+- Production deployment: [See our doc](https://nextstep-docv3.vercel.app/)
