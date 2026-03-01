@@ -120,7 +120,7 @@ export default defineConfig({
       ],
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/nextstep' }
+      { icon: 'github', link: 'https://github.com/Imesh-Bandar/NextStepDoc.git' }
     ],
     search: {
       provider: 'local'
