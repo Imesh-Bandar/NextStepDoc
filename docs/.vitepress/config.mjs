@@ -129,10 +129,6 @@ export default defineConfig({
       message: 'NextStep Job Portal Management System | <a href="https://nextstep-docv3.vercel.app/" target="_blank">Production Site</a>',
       copyright: '© 2026 NextStep Platform. All rights reserved.'
     },
-    editLink: {
-      pattern: 'https://github.com/Imesh-Bandar/NextStepDoc/edit/main/docs/:path',
-      text: 'Edit this page on GitHub'
-    },
     outline: {
       level: [2, 3]
     }
