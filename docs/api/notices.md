@@ -5,7 +5,7 @@ Admins create, schedule, and manage notices. Notices are role-targeted (Student,
 ## Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method get">GET</span> | `/api/notices` | Authenticated | Notice Board |
 | <span class="api-method get">GET</span> | `/api/notices/:id` | Authenticated | Notice Board |
 | <span class="api-method post">POST</span> | `/api/admin/notices` | Admin | Create Notice |

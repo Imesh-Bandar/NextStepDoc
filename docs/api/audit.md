@@ -5,7 +5,7 @@ Full audit trail of all admin actions. Analytics reports covering user growth, a
 ## Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method get">GET</span> | `/api/admin/audit-logs` | Admin | Audit Logs |
 | <span class="api-method get">GET</span> | `/api/admin/reports` | Admin | Reports & Analytics |
 

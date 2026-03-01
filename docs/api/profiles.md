@@ -5,7 +5,7 @@ Each user role has a dedicated profile endpoint. Students have academic details,
 ## Role Profile Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method get">GET</span> | `/api/student/profile` | Student | Student Profile |
 | <span class="api-method put">PUT</span> | `/api/student/profile` | Student | Student Profile |
 | <span class="api-method get">GET</span> | `/api/company/profile` | Company | Company Profile |
@@ -60,7 +60,7 @@ Each user role has a dedicated profile endpoint. Students have academic details,
 ## Company Verification (Admin)
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method get">GET</span> | `/api/admin/companies/pending` | Admin | Company Verification |
 | <span class="api-method patch">PATCH</span> | `/api/admin/companies/:id/verify` | Admin | Company Verification |
 | <span class="api-method patch">PATCH</span> | `/api/admin/companies/:id/reject` | Admin | Company Verification |

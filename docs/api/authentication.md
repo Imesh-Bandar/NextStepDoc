@@ -5,7 +5,7 @@ Covers user registration, login, logout, and password management. These endpoint
 ## Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method post">POST</span> | `/api/auth/register` | Public | Register |
 | <span class="api-method post">POST</span> | `/api/auth/login` | Public | Login |
 | <span class="api-method post">POST</span> | `/api/auth/logout` | Bearer Token | Sidebar |

@@ -6,6 +6,10 @@ This documentation provides a comprehensive reference for the **NextStep Job Por
 
 NextStep is intended for developers, testers, project managers, and all stakeholders involved in the development and deployment of the system.
 
+::: info GitHub Repository
+**Project Repository**: [https://github.com/Imesh-Bandar/NextStepDoc.git](https://github.com/Imesh-Bandar/NextStepDoc.git)
+:::
+
 ## What is NextStep?
 
 NextStep is a centralized digital platform designed to connect **students**, **companies**, **career consultants**, and **campus administrators**. The system facilitates job discovery, freelance hiring, career guidance, and issue resolution while ensuring transparency, security, and accountability across all stakeholders.
@@ -15,7 +19,7 @@ The platform is focused on student employment, freelance project opportunities, 
 ## Core Capabilities
 
 | Capability | Description |
-|---|---|
+| ------------ | ---------------------------------------------------------------------------- |
 | Job Vacancy Management | Internship and job management with quiz-based screening |
 | Freelance Hiring | Secure milestone-based payment processing |
 | Career Guidance | Appointment scheduling with consultant rating system |
@@ -35,7 +39,7 @@ The platform is focused on student employment, freelance project opportunities, 
 ## Definitions & Acronyms
 
 | Term | Definition |
-|---|---|
+| ------------ | ---------------------------------------------------------------------------- |
 | SRS | Software Requirements Specification |
 | API | Application Programming Interface |
 | RBAC | Role-Based Access Control |

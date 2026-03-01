@@ -5,7 +5,7 @@ Students browse consultants, book appointments, and join sessions via meeting li
 ## Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method get">GET</span> | `/api/consultants` | Student | Book Appointment |
 | <span class="api-method get">GET</span> | `/api/consultants/:id` | Student | Book Appointment |
 | <span class="api-method post">POST</span> | `/api/appointments` | Student | Book Appointment |
@@ -75,7 +75,7 @@ Students browse consultants, book appointments, and join sessions via meeting li
 ## Ratings
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method post">POST</span> | `/api/ratings` | Student | My Appointments |
 | <span class="api-method get">GET</span> | `/api/consultant/ratings` | Consultant | Ratings & Feedback |
 

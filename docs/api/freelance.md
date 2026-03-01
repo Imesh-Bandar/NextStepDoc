@@ -5,7 +5,7 @@ Companies post freelance projects with milestone-based payment structures. Stude
 ## Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method get">GET</span> | `/api/freelance/projects` | Public | Browse Freelance |
 | <span class="api-method get">GET</span> | `/api/freelance/projects/:id` | Public | Project Detail |
 | <span class="api-method post">POST</span> | `/api/freelance/projects` | Company | Post Project |

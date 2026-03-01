@@ -5,7 +5,7 @@ Companies create quizzes for job vacancies. Students attempt quizzes after short
 ## Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method post">POST</span> | `/api/jobs/:id/quiz` | Company | Quiz Builder |
 | <span class="api-method get">GET</span> | `/api/quiz/:id` | Student | Take Quiz |
 | <span class="api-method post">POST</span> | `/api/quiz/:id/questions` | Company | Quiz Builder |

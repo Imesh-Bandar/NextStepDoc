@@ -13,7 +13,7 @@ Submitted → Shortlisted → Quiz → Interview → Hired
 ## Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method post">POST</span> | `/api/applications` | Student | Job Detail |
 | <span class="api-method get">GET</span> | `/api/applications` | Student | My Applications |
 | <span class="api-method get">GET</span> | `/api/jobs/:id/applications` | Company | Applicants List |

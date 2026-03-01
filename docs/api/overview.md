@@ -4,7 +4,7 @@ The NextStep platform exposes approximately **~100 RESTful API endpoints** organ
 
 ## Base URL & Versioning
 
-```
+```text
 Base URL: https://api.nextstep.lk/api
 Version:  v1 (prefix all routes with /api)
 Content-Type: application/json
@@ -13,10 +13,10 @@ Authorization: Bearer <JWT Token>
 
 ## Authentication Model
 
-All protected endpoints require a `Bearer` JWT token in the `Authorization` header. Tokens are issued on login and expire after **24 hours**. Role-based access control (RBAC) is enforced server-side.
+All protected endpoints require a `Bearer` JWT token in the `Authorization` header. Tokens are issued via **Firebase Authentication** on login and expire after **24 hours**. Role-based access control (RBAC) is enforced server-side.
 
 | Role | Token Scope | Description |
-|---|---|---|
+| ------------ | ----------------------------------------------------------------- | -------- |
 | Public | No token | Landing, Login, Register, Notice Board, Complaint tracking |
 | Student | `role=student` | Browse jobs, apply, quizzes/exams, freelance, appointments, CV, campaigns |
 | Company | `role=company` | Post jobs, manage applicants, create quizzes/exams, freelance projects |
@@ -49,7 +49,7 @@ All protected endpoints require a `Bearer` JWT token in the `Authorization` head
 ## HTTP Status Codes
 
 | Code | Status | Usage |
-|---|---|---|
+| ------------ | ----------------------------------------------------------------- | -------- |
 | `200` | OK | Successful GET / PATCH / PUT |
 | `201` | Created | Successful POST |
 | `400` | Bad Request | Validation errors |
@@ -62,7 +62,7 @@ All protected endpoints require a `Bearer` JWT token in the `Authorization` head
 ## API Module Summary
 
 | Module | Endpoints | Description |
-|---|---|---|
+| ------------ | ----------------------------------------------------------------- | -------- |
 | [Authentication](/api/authentication) | 6 | Register, login, logout, password management |
 | [User Management](/api/users) | 6 | Admin user management |
 | [Profiles](/api/profiles) | 8+ | Role-specific profile CRUD |

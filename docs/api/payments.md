@@ -17,7 +17,7 @@ Company approves milestone
 ## Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method post">POST</span> | `/api/payments/initiate` | Company | Milestone Review |
 | <span class="api-method post">POST</span> | `/api/payments/webhook` | Gateway | — |
 | <span class="api-method get">GET</span> | `/api/payments/student` | Student | Payment History |

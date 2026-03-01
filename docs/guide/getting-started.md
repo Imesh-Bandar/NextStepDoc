@@ -1,16 +1,21 @@
 # Quick Start
 
+## Links
+
+**Repository**: [https://github.com/Imesh-Bandar/NextStepDoc.git](https://github.com/Imesh-Bandar/NextStepDoc.git)
+**Live Application**: [https://nextstepdocv1.vercel.app/](https://nextstepdocv1.vercel.app/)
+
 ## Operating Environment
 
 - The system operates on modern web browsers: **Chrome**, **Firefox**, **Safari**, **Edge**
 - Fully responsive across desktop, tablet, and mobile devices
-- Backend hosted on cloud-based server infrastructure
-- Database uses a relational DBMS (PostgreSQL / MySQL)
+- Backend hosted on Vercel / AWS infrastructure
+- Database uses **Neon PostgreSQL** (serverless PostgreSQL)
 
 ## Design & Implementation Constraints
 
 | Constraint | Detail |
-|---|---|
+| ------------------- | --------------------------------------------------------- |
 | Data Protection | Must comply with institutional data protection and privacy policies |
 | Payment Processing | Must integrate with approved third-party payment gateways |
 | Concurrent Users | Must support at least **500 simultaneous users** |
@@ -29,18 +34,18 @@
 
 All API requests use the base URL:
 
-```
+```text
 https://api.nextstep.lk/api
 ```
 
-Content type is `application/json` and all protected endpoints require a `Bearer` JWT token:
+Content type is `application/json` and all protected endpoints require a JWT Bearer token:
 
 ```http
 Authorization: Bearer <JWT Token>
 ```
 
 ::: tip
-Tokens are issued on login via `POST /api/auth/login` and expire after **24 hours**.
+JWT tokens are issued via Firebase Authentication on login and expire after **24 hours**. Role-based access control (RBAC) is enforced server-side.
 :::
 
 Jump to the [API Overview](/api/overview) to explore all endpoints.

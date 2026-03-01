@@ -63,7 +63,7 @@ Campus administrators have the **highest level of system access** and are respon
 ## Role Token Scopes
 
 | Role | Token Scope | Access Level |
-|---|---|---|
+| -------------- | ------------------ | ----------------------------------------------------------------------------- |
 | **Public** | No token | Landing, Login, Register, Notice Board, Complaint tracking |
 | **Student** | `role=student` | Browse jobs, apply, take quizzes/exams, freelance, appointments, CV, campaigns |
 | **Company** | `role=company` | Post jobs, manage applicants, create quizzes/exams, freelance projects |

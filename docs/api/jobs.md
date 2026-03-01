@@ -5,7 +5,7 @@ Companies post jobs which go through admin approval before becoming visible to s
 ## Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method get">GET</span> | `/api/jobs` | Public | Browse Jobs |
 | <span class="api-method get">GET</span> | `/api/jobs/:id` | Public | Job Detail |
 | <span class="api-method post">POST</span> | `/api/jobs` | Company | Post Job |

@@ -5,7 +5,7 @@ Any authenticated user can submit a complaint with a tracking ID for public trac
 ## Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method post">POST</span> | `/api/complaints` | Authenticated | Submit Complaint |
 | <span class="api-method get">GET</span> | `/api/complaints/track/:tracking_id` | Public | Complaint Tracker |
 | <span class="api-method get">GET</span> | `/api/complaints/my` | Authenticated | My Complaints |

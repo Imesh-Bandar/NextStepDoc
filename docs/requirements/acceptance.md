@@ -3,7 +3,7 @@
 The following criteria must be met for the system to be considered complete and ready for deployment.
 
 | # | Criteria | Verification Method |
-|---|---|---|
+| --- | -------------------------------------------------------------------------- | --------------------- |
 | 1 | All functional requirements are implemented and tested | Functional Testing |
 | 2 | System achieves 99.5% uptime during a 2-week pilot period | Monitoring & Logs |
 | 3 | All pages load within 3 seconds on standard broadband | Performance Testing |

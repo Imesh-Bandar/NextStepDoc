@@ -5,7 +5,7 @@ Students can create multiple CVs with different templates. Only one CV can be se
 ## Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method get">GET</span> | `/api/cv` | Student | CV Builder |
 | <span class="api-method post">POST</span> | `/api/cv` | Student | CV Builder |
 | <span class="api-method put">PUT</span> | `/api/cv/:id` | Student | CV Builder |

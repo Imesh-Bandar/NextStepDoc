@@ -5,7 +5,7 @@ Admin-only endpoints for managing all platform users — activation, locking, ar
 ## Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method get">GET</span> | `/api/admin/users` | Admin | User Management |
 | <span class="api-method get">GET</span> | `/api/admin/users/:id` | Admin | User Detail View |
 | <span class="api-method patch">PATCH</span> | `/api/admin/users/:id/activate` | Admin | User Management |

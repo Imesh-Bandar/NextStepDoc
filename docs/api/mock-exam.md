@@ -5,7 +5,7 @@ Full-featured competitive examinations with proctoring (tab-switch detection), r
 ## Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method post">POST</span> | `/api/jobs/:id/mock-exam` | Company | Mock Exam Builder |
 | <span class="api-method get">GET</span> | `/api/exam/:id` | Student | Take Mock Exam |
 | <span class="api-method post">POST</span> | `/api/exam/:id/questions` | Company | Mock Exam Builder |

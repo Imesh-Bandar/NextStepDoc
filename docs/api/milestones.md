@@ -15,7 +15,7 @@ Pending → InProgress → Submitted → Approved → Paid
 ## Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method get">GET</span> | `/api/freelance/projects/:id/milestones` | Student / Company | My Freelance Projects |
 | <span class="api-method post">POST</span> | `/api/freelance/projects/:id/milestones` | Company | Post Project |
 | <span class="api-method patch">PATCH</span> | `/api/milestones/:id/submit` | Student | My Freelance Projects |

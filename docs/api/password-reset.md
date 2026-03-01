@@ -5,7 +5,7 @@ Admin-managed password reset workflow. Users request password resets which are r
 ## Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method post">POST</span> | `/api/auth/password-reset-request` | Authenticated | Forgot Password |
 | <span class="api-method get">GET</span> | `/api/admin/password-resets` | Admin | Password Reset Requests |
 | <span class="api-method patch">PATCH</span> | `/api/admin/password-resets/:id/approve` | Admin | Password Reset Requests |

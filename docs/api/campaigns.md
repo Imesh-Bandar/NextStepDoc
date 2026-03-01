@@ -5,7 +5,7 @@ Students organize events and collect contributions via shareable links. Admin ap
 ## Endpoints
 
 | Method | Endpoint | Auth | UI Page |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | <span class="api-method get">GET</span> | `/api/campaigns` | Authenticated | Event Campaigns |
 | <span class="api-method get">GET</span> | `/api/campaigns/:link` | Public | Event Campaigns |
 | <span class="api-method post">POST</span> | `/api/campaigns` | Student | Create Campaign |

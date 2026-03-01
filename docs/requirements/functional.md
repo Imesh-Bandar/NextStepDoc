@@ -3,10 +3,10 @@
 ## 1. User Registration and Authentication {#auth}
 
 | Req ID | Requirement | Priority |
-|---|---|---|
+| ------------- | ----------------------------------------------------------------------------- | -------- |
 | FR-AUTH-001 | Users can register with email, selecting a role (Student, Company, Consultant) | High |
 | FR-AUTH-002 | Email verification link sent upon registration | High |
-| FR-AUTH-003 | JWT-based authentication with session management | High |
+| FR-AUTH-003 | Firebase Authentication with JWT token-based session management | High |
 | FR-AUTH-004 | Password reset via OTP sent to registered email | High |
 | FR-AUTH-005 | Role-based access control (RBAC) for all features | High |
 | FR-AUTH-006 | Account lock after 5 failed login attempts for 30 minutes | Medium |
@@ -19,7 +19,7 @@
 ## 2. Job Vacancy Management {#jobs}
 
 | Req ID | Requirement | Priority |
-|---|---|---|
+| ------------- | ----------------------------------------------------------------------------- | -------- |
 | FR-JOB-001 | Companies create job postings with role, skills, qualifications, salary, location, and type | High |
 | FR-JOB-002 | Job postings require admin approval before visibility | High |
 | FR-JOB-003 | Students can browse, search, and filter vacancies | High |
@@ -31,7 +31,7 @@
 ## 3. Quiz and Examination System {#quiz}
 
 | Req ID | Requirement | Priority |
-|---|---|---|
+| ------------- | ----------------------------------------------------------------------------- | -------- |
 | FR-EXAM-001 | Create quizzes with MCQ, true/false, and short-answer questions | High |
 | FR-EXAM-002 | Time limits on quiz attempts | High |
 | FR-EXAM-003 | Auto-grade objective questions with pass/fail calculation | High |
@@ -44,7 +44,7 @@
 After collecting CVs, the system conducts an online mock examination. Candidates with the highest marks or marks above a company-defined cutoff are automatically shortlisted for the interview stage.
 
 | Req ID | Requirement | Priority |
-|---|---|---|
+| ------------- | ----------------------------------------------------------------------------- | -------- |
 | FR-MOCK-001 | Create mock exams linked to specific vacancies after CV collection | High |
 | FR-MOCK-002 | Configure question bank, count, time limit, cutoff score, max shortlist | High |
 | FR-MOCK-003 | Support MCQ, true/false, short-answer, and coding questions | High |
@@ -65,7 +65,7 @@ After collecting CVs, the system conducts an online mock examination. Candidates
 ## 5. Freelance Hiring and Payment System {#freelance}
 
 | Req ID | Requirement | Priority |
-|---|---|---|
+| ------------- | ----------------------------------------------------------------------------- | -------- |
 | FR-FREE-001 | Companies post freelance projects with milestones, deadlines, and budgets | High |
 | FR-FREE-002 | Students browse and apply for freelance projects | High |
 | FR-FREE-003 | Digital work agreements between companies and freelancers | High |
@@ -78,7 +78,7 @@ After collecting CVs, the system conducts an online mock examination. Candidates
 ## 6. Career Guidance and Appointment System {#career}
 
 | Req ID | Requirement | Priority |
-|---|---|---|
+| ------------- | ----------------------------------------------------------------------------- | -------- |
 | FR-CAREER-001 | Browse available career consultants and experts | High |
 | FR-CAREER-002 | Consultants set and manage availability schedules | High |
 | FR-CAREER-003 | Students book, reschedule, or cancel appointments | High |
@@ -91,7 +91,7 @@ After collecting CVs, the system conducts an online mock examination. Candidates
 ## 7. Campus Administration {#admin}
 
 | Req ID | Requirement | Priority |
-|---|---|---|
+| ------------- | ----------------------------------------------------------------------------- | -------- |
 | FR-ADMIN-001 | Verify or reject company registration requests | High |
 | FR-ADMIN-002 | Approve or reject job postings | High |
 | FR-ADMIN-003 | Manage all user accounts (activate, deactivate, delete) | High |
@@ -103,7 +103,7 @@ After collecting CVs, the system conducts an online mock examination. Candidates
 ## 8. Complaint and Issue Tracking {#complaints}
 
 | Req ID | Requirement | Priority |
-|---|---|---|
+| ------------- | ----------------------------------------------------------------------------- | -------- |
 | FR-COMP-001 | All users can submit complaints or report issues | High |
 | FR-COMP-002 | Unique tracking ID and status (Open, In Progress, Resolved, Closed) | High |
 | FR-COMP-003 | Track progress of submitted complaints | Medium |
@@ -113,7 +113,7 @@ After collecting CVs, the system conducts an online mock examination. Candidates
 ## 9. CV / Resume Builder {#cv}
 
 | Req ID | Requirement | Priority |
-|---|---|---|
+| ------------- | ----------------------------------------------------------------------------- | -------- |
 | FR-CV-001 | Built-in CV/Resume builder on student dashboard | High |
 | FR-CV-002 | Multiple professional templates (Modern, Classic, Minimal, Creative) | High |
 | FR-CV-003 | Structured input for personal details, education, experience, skills, etc. | High |
@@ -128,7 +128,7 @@ After collecting CVs, the system conducts an online mock examination. Candidates
 ## 10. Event Fund Collection and Management {#events}
 
 | Req ID | Requirement | Priority |
-|---|---|---|
+| ------------- | ----------------------------------------------------------------------------- | -------- |
 | FR-EVENT-001 | Create fund collection campaigns (replacing Google Forms) | High |
 | FR-EVENT-002 | Campaign fields: name, description, target amount, per-person amount, deadline, organizer | High |
 | FR-EVENT-003 | Unique shareable link per campaign | High |
@@ -146,7 +146,7 @@ After collecting CVs, the system conducts an online mock examination. Candidates
 ## 11. Notice Management {#notices}
 
 | Req ID | Requirement | Priority |
-|---|---|---|
+| ------------- | ----------------------------------------------------------------------------- | -------- |
 | FR-NOTICE-001 | Admin Notice Management dashboard (create, edit, publish, schedule, archive) | High |
 | FR-NOTICE-002 | Notice fields: title, rich text body, category, target audience, publish date/time, expiry | High |
 | FR-NOTICE-003 | Target to specific roles: All Users, Students, Companies, Consultants, or combinations | High |

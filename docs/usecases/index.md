@@ -7,7 +7,7 @@
 ## All Use Cases
 
 | ID | Use Case | Actor | Description |
-|---|---|---|---|
+| ------ | -------------------------------- | ------------ | -------------- |
 | UC-001 | Register Account | All Users | Create an account and select a role |
 | UC-002 | Login to System | All Users | Authenticate and access role-based dashboard |
 | UC-003 | Post Job Vacancy | Company | Create and submit a job posting for admin review |

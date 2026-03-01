@@ -3,7 +3,7 @@
 ## Core Entities
 
 | Entity | Key Attributes | Relationships |
-|---|---|---|
+| ------------ | ----------------------------------------------------------------- | -------- |
 | **User** | user_id, name, email, password_hash, role, status, created_at | Has Profile, creates Complaints |
 | **Student Profile** | student_id, university, degree, skills, resume_url, GPA | Belongs to User, applies to Jobs |
 | **Company Profile** | company_id, name, industry, size, verification_status | Belongs to User, posts Jobs |
@@ -26,7 +26,7 @@
 ## Data Retention & Privacy
 
 | Policy | Detail |
-|---|---|
+| ------------ | ---------------------------------------------------------------------------- |
 | **Data Protection** | User data stored in compliance with applicable regulations |
 | **Inactive Accounts** | Flagged after 12 months, archived after 24 months |
 | **Payment Records** | Retained for minimum 7 years for audit compliance |

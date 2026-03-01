@@ -3,7 +3,7 @@
 ## Color Palette
 
 | Element | Value | Preview |
-|---|---|---|
+| ------------ | ----------------------------------------------------------------- | -------- |
 | **Primary Color** | `#2563EB` (Royal Blue) | 🔵 |
 | **Secondary Color** | `#1E293B` (Dark Slate) | ⚫ |
 | **Accent Color** | `#22C55E` (Success Green) | 🟢 |
@@ -12,7 +12,7 @@
 ## Typography
 
 | Element | Font |
-|---|---|
+| ------------ | ---------------------------------------------------------------------------- |
 | **Heading Fonts** | Poppins / Roboto |
 | **Body Font** | Inter |
 
@@ -21,7 +21,7 @@
 The system is fully responsive across three breakpoints:
 
 | Device | Breakpoint |
-|---|---|
+| ------------ | ---------------------------------------------------------------------------- |
 | **Mobile** | < 768px |
 | **Tablet** | 768px – 1024px |
 | **Desktop** | > 1024px |
@@ -39,7 +39,7 @@ The system complies with **WCAG 2.1 Level AA** accessibility standards, ensuring
 ## Key Interface Screens
 
 | Screen | Role | Description |
-|---|---|---|
+| ------------ | ----------------------------------------------------------------- | -------- |
 | Registration & Login | All | Account creation and authentication |
 | Student Dashboard | Student | Job listings, applications, appointments, freelance projects |
 | Company Dashboard | Company | Job posting, applicant review, quiz creation, freelance management |
