@@ -26,7 +26,7 @@ The system adopts a **RESTful API** design pattern to enable clean separation be
 
 ## Production Deployment
 
-**Live Application**: [https://nextstepdocv1.vercel.app/](https://nextstepdocv1.vercel.app/)
+**Live Application**: [Go to Live Doc](https://nextstep-docv3.vercel.app/)
 
 ## External Interfaces
 
